@@ -1,0 +1,18 @@
+html {
+  background-color: rgb(37, 33, 33);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body {
+  line-height: 2rem;
+  color: rgb(31, 177, 177);
+  padding: 50px;
+}
+
+@media (max-width: 550px) {
+  .card-body {
+    padding: 10px;
+  }
+}
