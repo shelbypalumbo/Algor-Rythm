@@ -1,0 +1,58 @@
+.chalkboard {
+  font-family: "Source Code Pro", monospace;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  background: linear-gradient(
+    -15deg,
+    rgb(235, 193, 193) 43%,
+    rgb(194, 168, 168) 43%
+  );
+  border: 5px solid rgb(235, 193, 193);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 950px) {
+  .card-body {
+    padding: 10px;
+  }
+
+  .chalkboard {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .algorithm {
+    border-right: none;
+    border-bottom: 1px solid gray;
+  }
+}
+
+.title {
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  color: rgb(175, 154, 154);
+}
+
+.algorithm {
+  color: rgb(41, 39, 39);
+  font-weight: 900;
+  flex: 1;
+  white-space: pre-wrap;
+  padding: 20px;
+  border-right: 1px solid gray;
+}
+
+.testcase {
+  color: rgb(73, 72, 72);
+  flex: 1;
+  white-space: pre-wrap;
+  padding: 20px;
+}
+
+.margin {
+  margin-bottom: 100px;
+}

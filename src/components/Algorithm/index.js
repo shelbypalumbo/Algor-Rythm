@@ -1,34 +1,27 @@
 import React from "react";
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Button
-} from "reactstrap";
+import { Card, CardText, CardBody, CardTitle, CardSubtitle } from "reactstrap";
+import classes from "./style.module.css";
 
 function Algorithm(props) {
   return (
-    <Card>
-      {/* <CardImg
-        top
-        width="100%"
-        src="/assets/318x180.svg"
-        alt="Card image cap"
-      /> */}
+    <Card className={classes.margin}>
       <CardBody>
         <CardTitle>
-          <h1>{props.title}</h1>
+          <h1 className={classes.title}>{props.title}</h1>
         </CardTitle>
         <CardSubtitle>
-          <h3>{props.subtitle}</h3>
+          <h3 className={classes.title}>{props.subtitle}</h3>
         </CardSubtitle>
-        <CardText>
-          <pre>{props.algorithm}</pre>
+        <CardText className={classes.chalkboard}>
+          <p className={classes.algorithm}>{props.algorithm}</p>
+          <p className={classes.testcase}>
+            <i class="fas fa-asterisk"></i>
+            <br />
+            {props.testcase}
+            <br />
+            <i class="fas fa-asterisk"></i>
+          </p>
         </CardText>
-        <Button>Button</Button>
       </CardBody>
     </Card>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 const Navbar = () => {
-  function myFunction() {
+  function mobileDropDown() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
@@ -19,7 +19,7 @@ const Navbar = () => {
       <a href="/AboutMe">About Me</a>
       <a href="/Publications">Publications</a>
       <a href="/Contact">Contact</a>
-      <a href="#/" className="icon" onClick={myFunction}>
+      <a href="#/" className="icon" onClick={mobileDropDown}>
         <i className="fa fa-bars"></i>
       </a>
     </div>

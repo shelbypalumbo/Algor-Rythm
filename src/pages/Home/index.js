@@ -3,11 +3,11 @@ import classes from "./style.module.css";
 
 const Home = () => {
   return (
-    <div class={classes.box}>
-      <div class={classes.inner}>
+    <div className={classes.box}>
+      <div className={classes.inner}>
         <span>Algor-Rythm</span>
       </div>
-      <div class={classes.inner}>
+      <div className={classes.inner}>
         <span>Algor-Rythm</span>
       </div>
     </div>

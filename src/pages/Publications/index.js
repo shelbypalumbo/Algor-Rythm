@@ -7,16 +7,18 @@ class Publications extends Component {
   state = {
     Algorithms
   };
+
   render() {
     return (
-      <div className="algorithm_mochachai">
+      <div>
         {this.state.Algorithms.map(algor => (
-          <div className="algorithm">
+          <div>
             <Algorithm
               key={algor.id}
               title={algor.title}
               subtitle={algor.subtitle}
               algorithm={algor.algorithm}
+              testcase={algor.testcase}
             />
           </div>
         ))}
