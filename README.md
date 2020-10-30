@@ -22,5 +22,6 @@ CSS
 
 ### Additional Styling Framework
 
-Fontsawesome icons | https://fontawesome.com/icons?d=gallery&m=free
-Google Fonts | https://fonts.google.com/?selection.family=Odibee+Sans
+- Fontsawesome icons | https://fontawesome.com/icons?d=gallery&m=free
+
+- Google Fonts | https://fonts.google.com/?selection.family=Odibee+Sans
