@@ -1,1 +1,10 @@
+.copyBtn {
+  height: 20px;
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(138, 86, 221);
+}
 
+.copyBtn:hover {
+  color: white;
+}
