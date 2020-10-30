@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Algor-Rythm/static/css/main.69166715.chunk.css",
+    "main.js": "/Algor-Rythm/static/js/main.b0485911.chunk.js",
+    "main.js.map": "/Algor-Rythm/static/js/main.b0485911.chunk.js.map",
+    "runtime-main.js": "/Algor-Rythm/static/js/runtime-main.e560959e.js",
+    "runtime-main.js.map": "/Algor-Rythm/static/js/runtime-main.e560959e.js.map",
+    "static/js/2.75beec56.chunk.js": "/Algor-Rythm/static/js/2.75beec56.chunk.js",
+    "static/js/2.75beec56.chunk.js.map": "/Algor-Rythm/static/js/2.75beec56.chunk.js.map",
+    "index.html": "/Algor-Rythm/index.html",
+    "precache-manifest.24a1d4267ef479c8217e196622fa738e.js": "/Algor-Rythm/precache-manifest.24a1d4267ef479c8217e196622fa738e.js",
+    "service-worker.js": "/Algor-Rythm/service-worker.js",
+    "static/css/main.69166715.chunk.css.map": "/Algor-Rythm/static/css/main.69166715.chunk.css.map",
+    "static/js/2.75beec56.chunk.js.LICENSE.txt": "/Algor-Rythm/static/js/2.75beec56.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e560959e.js",
+    "static/js/2.75beec56.chunk.js",
+    "static/css/main.69166715.chunk.css",
+    "static/js/main.b0485911.chunk.js"
+  ]
+}
