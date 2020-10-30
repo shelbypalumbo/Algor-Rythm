@@ -12,7 +12,6 @@ A react application showcasing my algorithm library.
 
 - Adding more of my algorithms
 - Adding search and sorting functionality
-- Adding a clipboard copy to each algorithm
 
 ### Programming Languages Used
 
