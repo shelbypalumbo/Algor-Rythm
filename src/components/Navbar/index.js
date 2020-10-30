@@ -13,15 +13,14 @@ const Navbar = () => {
 
   return (
     <div className="topnav" id="myTopnav">
-      <a href="/Algor-Rythm" className="active">
-        Home
+      <a href="#" className="active">
+        Contact
       </a>
-      <a href="/AboutMe">About Me</a>
-      <a href="/Publications">Publications</a>
-      <a href="/Contact">Contact</a>
+      <a href="/AlgoLibrary">Algorithm Library</a>
       <a href="#/" className="icon" onClick={mobileDropDown}>
         <i className="fa fa-bars"></i>
       </a>
+      <a href="/Algor-Rythm">Home</a>
     </div>
   );
 };

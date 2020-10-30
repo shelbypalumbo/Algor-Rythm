@@ -19,8 +19,8 @@ html {
 }
 
 .box .inner:first-child {
-  background-color: rgb(228, 186, 139);
-  color: rgb(238, 113, 134);
+  background-color: rgb(255, 196, 129);
+  color: rgb(235, 69, 138);
   transform-origin: right;
   transform: perspective(100px) rotateY(-15deg) rotateX(-20deg);
 }

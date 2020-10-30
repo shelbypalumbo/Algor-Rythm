@@ -4,7 +4,7 @@ import Algorithm from "../../components/Algorithm";
 import Algorithms from "../../algorithms";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
-class Publications extends Component {
+class AlgoLibrary extends Component {
   state = {
     Algorithms,
     value: "",
@@ -23,6 +23,7 @@ class Publications extends Component {
               algorithm={algor.algorithm}
               testcase={algor.testcase}
             >
+              <br />
               <CopyToClipboard
                 text={algor.algorithm}
                 onCopy={() => this.setState({ copied: true })}
@@ -37,4 +38,4 @@ class Publications extends Component {
   }
 }
 
-export default Publications;
+export default AlgoLibrary;

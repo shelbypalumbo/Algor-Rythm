@@ -1,7 +1,8 @@
 import React from "react";
-import Home from "./pages/Home/index";
-import Publications from "./pages/Publications/index";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home/index";
+import AlgoLibrary from "./pages/AlgoLibrary/index";
+import Contact from "./pages/Contact/index";
 import NavBar from "./components/Navbar";
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path="/Algor-Rythm" component={Home} />
-        <Route exact path="/Publications" component={Publications} />
+        <Route exact path="/AlgoLibrary" component={AlgoLibrary} />
+        <Route exact path="/Contact" component={Contact} />
       </Switch>
     </Router>
   );

@@ -12,6 +12,9 @@ A react application showcasing my algorithm library.
 
 - Adding more of my algorithms
 - Adding search and sorting functionality
+- Contact Page
+- Back to top button component
+- Additional styling
 
 ### Programming Languages Used
 

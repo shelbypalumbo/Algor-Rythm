@@ -18,10 +18,6 @@
   color: rgb(231, 148, 100);
 }
 
-.topnav a.active {
-  color: #2e2a2a;
-}
-
 .topnav .icon {
   display: none;
 }
