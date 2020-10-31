@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className="topnav" id="myTopnav">
-      <a href="#" className="active">
+      <a href="/Contact" className="active">
         Contact
       </a>
       <a href="/AlgoLibrary">Algorithm Library</a>
