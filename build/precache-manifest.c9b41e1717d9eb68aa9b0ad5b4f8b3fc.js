@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "785b7df8983cca84418e337601570466",
+    "revision": "ec9c69b64edf4c257195b13a6d36c807",
     "url": "/Algor-Rythm/index.html"
   },
   {
-    "revision": "b071820a027920d2b97a",
+    "revision": "e339537fabe69abc53cc",
     "url": "/Algor-Rythm/static/css/main.4e57d860.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Algor-Rythm/static/js/2.f1b8bc66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b071820a027920d2b97a",
-    "url": "/Algor-Rythm/static/js/main.ab7df1a1.chunk.js"
+    "revision": "e339537fabe69abc53cc",
+    "url": "/Algor-Rythm/static/js/main.4cba4e24.chunk.js"
   },
   {
     "revision": "c6d8da93b4fff5b6182c",
