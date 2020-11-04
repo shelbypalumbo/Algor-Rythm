@@ -60,5 +60,51 @@ If str="Mina", the for loop would iterate 4 times! Each iteration, setting the n
 
 In this case, "Mina" has 2 vowels, so the value of result = 2.
 `
+  },
+  {
+    id: 2,
+    title: "Print Out Only Even Numbers",
+    subtitle: "Log the even numbers from a given array of numbers.",
+    algorithm: `
+const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
+
+const logEvenNums = numbers => {
+  for (let i = 0; i <= numbers.length; i++) {
+    if (numbers[i] % 2 == 0) {
+      let even = numbers[i];
+      console.log(even, "Even Numbers!!!");
+    }
+  }
+};
+
+logEvenNums(numbers);
+`,
+    testcase: `In this function you are console logging only the value of the even number in the given array.
+    
+    This is done by iterating over an if statement that checks IF this array item has a remainder of 0, then log the number. 
+    
+    The amount of for loop iterations are the length of the given numbers array and numbers[i] will be the value of each array item during each iteration.
+
+    The console will log 0,2,4,6,8,10,12,14,16,18
+`
+  },
+  {
+    id: 2,
+    title: "Number Countdown",
+    subtitle: "Reverse the order of a given array of numbers",
+    algorithm: `
+const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
+const countDown = nums => {
+  let reversed = nums.reverse();
+  for (var i = 0; i <= reversed.length - 1; i++) {
+    console.log("nums", reversed[i]);
+  }
+};
+
+countDown(nums);
+`,
+    testcase: `
+`
   }
 ];

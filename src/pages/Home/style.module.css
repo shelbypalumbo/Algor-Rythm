@@ -40,7 +40,7 @@ html {
 
 .box .inner:first-child span {
   animation-delay: 2.5s;
-  left: -100%;
+  left: -150%;
 }
 
 @keyframes marquee {

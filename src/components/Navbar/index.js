@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 const Navbar = () => {
@@ -13,14 +14,14 @@ const Navbar = () => {
 
   return (
     <div className="topnav" id="topNav">
-      <a href="/Contact" className="active">
+      <Link to="/Contact" className="active">
         Contact
-      </a>
-      <a href="/AlgoLibrary">Algorithm Library</a>
+      </Link>
+      <Link to="/AlgoLibrary">Algorithm Library</Link>
       <a href="#/" className="icon" onClick={mobileDropDown}>
         <i className="fa fa-bars"></i>
       </a>
-      <a href="/Algor-Rythm">Home</a>
+      <Link to="/Algor-Rythm">Home</Link>
     </div>
   );
 };
