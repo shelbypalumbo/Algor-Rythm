@@ -4,6 +4,7 @@ import Home from "./pages/Home/index";
 import AlgoLibrary from "./pages/AlgoLibrary/index";
 import Contact from "./pages/Contact/index";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/AlgoLibrary" component={AlgoLibrary} />
         <Route exact path="/Contact" component={Contact} />
       </Switch>
+      <Footer />
     </Router>
   );
 }

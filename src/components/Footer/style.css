@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  height: 70px;
+  font-family: "Helvetica";
+  color: rgb(231, 148, 100);
+}
+
+.footleft {
+  flex: 1;
+  padding: 20px;
+}
+
+.footright {
+  flex: 1;
+  padding: 20px;
+}

@@ -21,7 +21,9 @@ const Navbar = () => {
       <a href="#/" className="icon" onClick={mobileDropDown}>
         <i className="fa fa-bars"></i>
       </a>
-      <Link to="/Algor-Rythm">Home</Link>
+      <Link className="home_a" to="/Algor-Rythm">
+        Algor-Rythm
+      </Link>
     </div>
   );
 };

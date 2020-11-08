@@ -1,20 +1,25 @@
 .topnav {
-  font-family: "Caveat", cursive;
+  font-family: "Helvetica";
   overflow: hidden;
+  background-color: #2e2a2a;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 
 .topnav a {
   float: right;
   display: block;
-  color: #2e2a2a;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 18px 30px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: 300;
 }
 
 .topnav a:hover {
-  background-color: rgb(226, 222, 218);
+  background-color: #474141;
   color: rgb(231, 148, 100);
 }
 
@@ -29,6 +34,7 @@
   .topnav a.icon {
     float: right;
     display: block;
+    background-color: #2e2a2a;
   }
   .topnav a.active {
     display: none;
@@ -49,4 +55,11 @@
     text-align: center;
     display: block;
   }
+}
+
+.topnav .home_a {
+  font-size: 20px;
+  font-weight: bold;
+  color: orange;
+  float: left;
 }
