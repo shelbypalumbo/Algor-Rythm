@@ -10,7 +10,7 @@ const Contact = () => {
         <a
           className={classes.link}
           target="_blank"
-          href="https://shelbypalumbo.github.io/Shelby-Pumbo-React-Portfolio/"
+          href="https://shelbypalumbo.github.io/Shelby-Palumbo-React-Portfolio/"
         >
           website
         </a>

@@ -89,22 +89,46 @@ logEvenNums(numbers);
 `
   },
   {
-    id: 2,
+    id: 3,
     title: "Number Countdown",
-    subtitle: "Reverse the order of a given array of numbers",
+    subtitle:
+      "Reverse the order of an array of numbers and return each array item",
     algorithm: `
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 const countDown = nums => {
   let reversed = nums.reverse();
   for (var i = 0; i <= reversed.length - 1; i++) {
-    console.log("nums", reversed[i]);
+    console.log(reversed[i]);
   }
 };
 
 countDown(nums);
 `,
-    testcase: `
+    testcase: `This is not a sorting algorithm, that will come later. 
+    This function is just reversing the order of the given array of numbers using the reverse() method and printing each item of the array to the console.
+    
+    The expected result should be 
+    " 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 ".
 `
+  },
+  {
+    id: 4,
+    title: "String Reversal",
+    subtitle: "Reverse the order of a string",
+    algorithm: `
+const reverseStr = (str) =>{
+  return str.split(" ").reverse().join(" ");
+}
+
+console.log(reverseStr("Shelby Palumbo"))
+`,
+    testcase: ` Using the split(" ") method with a space in quotes, 
+    splits the string at the space character, 
+    the reverse() method then reverses the order of both items in the string, 
+    and then they are rejoined by the join(" ") method.
+
+    The expected result is  "Palumbo Shelby"
+    `
   }
 ];

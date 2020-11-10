@@ -30,7 +30,6 @@
 
 .algorithm {
   color: rgb(41, 39, 39);
-  font-weight: 900;
   flex: 1;
   white-space: pre-wrap;
   padding: 20px;
@@ -45,7 +44,8 @@
 }
 
 .margin {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  padding-bottom: 2.5rem;
 }
 
 @media (max-width: 950px) {
