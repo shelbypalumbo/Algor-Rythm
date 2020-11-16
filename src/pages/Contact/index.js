@@ -10,6 +10,7 @@ const Contact = () => {
         <a
           className={classes.link}
           target="_blank"
+          rel="noopener noreferrer"
           href="https://shelbypalumbo.github.io/Shelby-Palumbo-React-Portfolio/"
         >
           website
@@ -22,6 +23,7 @@ const Contact = () => {
         <a
           className={classes.link}
           target="_blank"
+          rel="noopener noreferrer"
           href="https://www.linkedin.com/in/shelby-palumbo/"
         >
           linkedIn
