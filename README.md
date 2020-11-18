@@ -14,18 +14,18 @@ A react application showcasing my algorithm library.
 
 ## Work in Progress
 
-- Adding more of my algorithms
+- Adding more algorithms
 - Adding search and sorting functionality
-- Contact Page
+- Contact page content
 - Back to top button component
 - Additional styling
 
 ### Programming Languages Used
 
-React
-JSX
-HTML
-CSS
+- React
+- JSX
+- HTML
+- CSS
 
 ### Additional Styling Framework
 
