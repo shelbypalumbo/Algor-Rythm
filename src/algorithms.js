@@ -124,11 +124,56 @@ const reverseStr = (str) =>{
 console.log(reverseStr("Shelby Palumbo"))
 `,
     testcase: ` Using the split(" ") method with a space in quotes, 
-    splits the string at the space character, 
-    the reverse() method then reverses the order of both items in the string, 
-    and then they are rejoined by the join(" ") method.
+    splits the string at the space character. 
+    The reverse() method then reverses the order of both items in the string, 
+    and then they are rejoined by using the join(" ") method.
 
     The expected result is  "Palumbo Shelby"
     `
+  },
+  {
+    id: 5,
+    title: "Sum of Array",
+    subtitle: "The sum of all numbers in an array.",
+    algorithm: `
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let result;
+
+const arrSum = numbers => {
+  result = numbers.reduce((a, b) => a + b);
+  return result;
+};
+
+arrSum(numbers);
+console.log(result);
+`,
+    testcase: ` 
+Using the reduce() method on the numbers array, 
+the reduce method executes a function for each value of the array, in this case, the function adds a + b,
+and stores the value of this result. 
+
+The expected result of the sum of the numbers array is 55.
+
+  a + b = result
+  1 + 2 = 3 
+  3 + 3 = 6
+  6 + 4 = 10
+  10 + 5 = 15
+  15 + 6 = 21
+  21 + 7 = 28
+  28 + 8 = 36
+  36 + 9 = 45
+  45 + 10 = 55
+    `
   }
 ];
+
+// {
+//   id: ,
+//   title: "",
+//   subtitle: "",
+//   algorithm: `
+// `,
+//   testcase: `
+//   `
+// }

@@ -4,13 +4,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
-  /* background: linear-gradient(
-    -15deg,
-    rgb(243 156 156) 43%,
-    rgb(226 141 141) 43%
-  );
-  border: 7px solid rgb(245 154 154); */
-
   background: linear-gradient(
     -15deg,
     rgb(224, 133, 79) 43%,
@@ -20,6 +13,7 @@
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .title {

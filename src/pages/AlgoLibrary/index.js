@@ -7,31 +7,29 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 class AlgoLibrary extends Component {
   state = {
     Algorithms,
-    value: "",
-    copied: false
+    copied: false,
+    value: ""
   };
 
   render() {
     return (
-      <div>
+      <div className="margin_top">
         {this.state.Algorithms.map(algor => (
-          <div>
-            <Algorithm
-              key={algor.id}
-              title={algor.title}
-              subtitle={algor.subtitle}
-              algorithm={algor.algorithm}
-              testcase={algor.testcase}
+          <Algorithm
+            key={algor.id}
+            title={algor.title}
+            subtitle={algor.subtitle}
+            algorithm={algor.algorithm}
+            testcase={algor.testcase}
+          >
+            <br />
+            <CopyToClipboard
+              text={algor.algorithm}
+              onCopy={() => this.setState({ copied: true })}
             >
-              <br />
-              <CopyToClipboard
-                text={algor.algorithm}
-                onCopy={() => this.setState({ copied: true })}
-              >
-                <span className="copyBtn">Copy this Algorithm</span>
-              </CopyToClipboard>
-            </Algorithm>
-          </div>
+              <span className="copyBtn">Copy this Algorithm</span>
+            </CopyToClipboard>
+          </Algorithm>
         ))}
       </div>
     );

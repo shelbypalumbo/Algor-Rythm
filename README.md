@@ -8,6 +8,10 @@ As I build my knowledge of algorithms, I want to showcase my notes in a visually
 
 A react application showcasing my algorithm library.
 
+![Cover Page](src/images/homepage.png)
+
+![Cover Page](src/images/algorithm.png)
+
 ## Work in Progress
 
 - Adding more of my algorithms
