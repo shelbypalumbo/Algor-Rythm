@@ -1,4 +1,5 @@
 .chalkboard {
+  font-weight: bold;
   font-family: "Source Code Pro", monospace;
   display: flex;
   flex-direction: row;

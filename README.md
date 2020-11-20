@@ -14,11 +14,10 @@ A react application showcasing my algorithm library.
 
 ## Work in Progress
 
-- Adding more algorithms
-- Adding search and sorting functionality
+- Continue adding more algorithms
+- Add search and sort functionality to search for keywords not the full algorithm titles
 - Contact page content
-- Back to top button component
-- Additional styling
+- Reverse order of mobile nav dropdown menu
 
 ### Programming Languages Used
 
@@ -32,3 +31,7 @@ A react application showcasing my algorithm library.
 - Fontsawesome icons | https://fontawesome.com/icons?d=gallery&m=free
 
 - Google Fonts | https://fonts.google.com/?selection.family=Odibee+Sans
+
+#### Other Resources
+
+- Reusable Button Component by graysonhicks| https://github.com/graysonhicks/react-scrolltop-button
