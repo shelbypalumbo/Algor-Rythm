@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Algor-Rythm/static/css/main.1eb24072.chunk.css",
-    "main.js": "/Algor-Rythm/static/js/main.edc4c643.chunk.js",
-    "main.js.map": "/Algor-Rythm/static/js/main.edc4c643.chunk.js.map",
+    "main.css": "/Algor-Rythm/static/css/main.43e44c79.chunk.css",
+    "main.js": "/Algor-Rythm/static/js/main.12f5725f.chunk.js",
+    "main.js.map": "/Algor-Rythm/static/js/main.12f5725f.chunk.js.map",
     "runtime-main.js": "/Algor-Rythm/static/js/runtime-main.e560959e.js",
     "runtime-main.js.map": "/Algor-Rythm/static/js/runtime-main.e560959e.js.map",
     "static/js/2.215706df.chunk.js": "/Algor-Rythm/static/js/2.215706df.chunk.js",
     "static/js/2.215706df.chunk.js.map": "/Algor-Rythm/static/js/2.215706df.chunk.js.map",
     "index.html": "/Algor-Rythm/index.html",
-    "precache-manifest.d60e6959d57113ffada10855a182773f.js": "/Algor-Rythm/precache-manifest.d60e6959d57113ffada10855a182773f.js",
+    "precache-manifest.69b82253250eb4268141b417825b556e.js": "/Algor-Rythm/precache-manifest.69b82253250eb4268141b417825b556e.js",
     "service-worker.js": "/Algor-Rythm/service-worker.js",
-    "static/css/main.1eb24072.chunk.css.map": "/Algor-Rythm/static/css/main.1eb24072.chunk.css.map",
+    "static/css/main.43e44c79.chunk.css.map": "/Algor-Rythm/static/css/main.43e44c79.chunk.css.map",
     "static/js/2.215706df.chunk.js.LICENSE.txt": "/Algor-Rythm/static/js/2.215706df.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e560959e.js",
     "static/js/2.215706df.chunk.js",
-    "static/css/main.1eb24072.chunk.css",
-    "static/js/main.edc4c643.chunk.js"
+    "static/css/main.43e44c79.chunk.css",
+    "static/js/main.12f5725f.chunk.js"
   ]
 }
