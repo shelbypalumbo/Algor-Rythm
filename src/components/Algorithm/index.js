@@ -10,7 +10,7 @@ function Algorithm(props) {
           <h1 className={classes.title}>{props.title}</h1>
         </CardTitle>
         <CardSubtitle>
-          <h3 className={classes.title}>{props.subtitle}</h3>
+          <h3 className={classes.sub_title}>{props.subtitle}</h3>
         </CardSubtitle>
         <div className={classes.chalkboard}>
           <p className={classes.algorithm}>{props.algorithm}</p>

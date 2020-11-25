@@ -117,7 +117,7 @@ countDown(nums);
     title: "String Reversal",
     subtitle: "Reverse the order of a string",
     algorithm: `
-const reverseStr = (str) =>{
+const reverseStr = (str) => {
   return str.split(" ").reverse().join(" ");
 }
 
