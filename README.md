@@ -6,7 +6,7 @@ As I build my knowledge of algorithms, I want to showcase my notes in a visually
 
 # Usage
 
-A react application showcasing an algorithm library with code examples, explantions, and an option to copy the algorithm to your clipboard! Use the search option to narrow down the type of algorithm you are looking for.
+A React application showcasing a library of algorithms with examples, explantions, and an option to copy the algorithm to your clipboard! Use the search bar to narrow down the type of algorithm you are looking for.
 
 ![Cover Page](src/images/homepage.png)
 
