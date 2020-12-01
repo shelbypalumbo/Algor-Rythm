@@ -133,7 +133,7 @@ console.log(reverseStr("Shelby Palumbo"))
   },
   {
     id: 5,
-    title: "Sum of Array",
+    title: "Sum of an Array",
     subtitle: "The sum of all numbers in an array.",
     algorithm: `
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -155,16 +155,84 @@ and stores the value of this result.
 The expected result of the sum of the numbers array is 55.
 
   a + b = result
-  1 + 2 = 3 
-  3 + 3 = 6
-  6 + 4 = 10
-  10 + 5 = 15
-  15 + 6 = 21
-  21 + 7 = 28
-  28 + 8 = 36
-  36 + 9 = 45
-  45 + 10 = 55
+ 1 + 2 = 3 
+3 + 3 = 6
+ 6 + 4 = 10
+10 + 5 = 15
+15 + 6 = 21
+21 + 7 = 28
+28 + 8 = 36
+36 + 9 = 45
+ 45 + 10 = 55
     `
+  },
+  {
+    id: 6,
+    title: "Divisible Numbers",
+    subtitle:
+      "Find the numbers in a given array that are divisible by 3 and 5.",
+    algorithm: `
+    let array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25];
+    
+    const findDivisibleNums = () => {
+      for (var i = 0; i < array.length; i++) {
+        if (array[i] % 3 === 0) {
+          console.log(array[i], "is divisible by 3.");
+        }
+        if (array[i] % 5 === 0) {
+          console.log(array[i], "is divisible by 5.");
+        }
+        if (array[i] % 15 === 0) {
+          console.log(array[i], "is divisible by 3 & 5.");
+        }
+        if (array[i] % 3 !== 0 && array[i] % 5 !== 0) {
+          console.log(array[i], "is NOT divisible by 3 or 5.");
+        }
+      }
+    };
+    
+    findDivisibleNums(array);
+  `,
+    testcase: `
+    `
+  },
+  {
+    id: 7,
+    title: "Max Array Value",
+    subtitle: "Using Math.max",
+    algorithm: `
+let array = [3, 1, 17, 23, 5, 6, 111, 1000, 12, 0, -1];
+
+let result;
+const maxNum = () => {
+result = Math.max(...array);
+return result;
+};
+
+maxNum(array);
+console.log(result);
+`,
+    testcase: `
+  `
+  },
+  {
+    id: 8,
+    title: "Min Array Value",
+    subtitle: "",
+    algorithm: `
+let array = [3, 1, 17, 23, 5, 6, 111, 1000, 12, 0, -1];
+
+let result;
+const minNum = () => {
+result = Math.min(...array);
+return result;
+};
+
+minNum(array);
+console.log(result);
+`,
+    testcase: `
+  `
   }
 ];
 

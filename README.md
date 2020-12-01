@@ -2,11 +2,11 @@ Deployed Link: https://shelbypalumbo.github.io/Algor-Rythm/
 
 # User Story
 
-As I build my knowledge of algorithms, I want to showcase my notes in a visually appealing way to myself, so that I can refer back to my notes all in one place.
+As I build my knowledge of algorithms, I want to showcase my notes in a visually appealing way, so that I can refer back to my notes and feel inspired.
 
 # Usage
 
-A React application showcasing a library of algorithms with examples, explantions, and an option to copy the algorithm to your clipboard! Use the search bar to narrow down the type of algorithm you are looking for.
+A React application showcasing a library of algorithms with examples, explanations, and an option to copy the algorithm to your clipboard! Use the search bar to narrow down the type of algorithm you are looking for.
 
 ![Cover Page](src/images/homepage.png)
 
