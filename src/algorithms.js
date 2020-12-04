@@ -54,7 +54,7 @@ const vowelCount = (str) => {
 };
 `,
     testcase: `
-Check each characters of the input string 'str' against the items in the vowel array (the vowels). If the str character at index [i] does occur in the array, add +1 to the result, otherwise do nothing and return result.
+This function checks each characters of the input string 'str' against the items in the vowel array (the vowels). If the str character at index [i] does occur in the array, add +1 to the result, otherwise do nothing and return result.
 
 If str="Mina", the for loop would iterate 4 times! Each iteration, setting the next character of the string to lowercase using the toLowerCase() method. If the character of the iteration matches any of the items in the vowel array, +1 to the result! 
 
@@ -66,7 +66,7 @@ In this case, "Mina" has 2 vowels, so the value of result = 2.
     title: "Print Out Only Even Numbers",
     subtitle: "Log the even numbers from a given array of numbers.",
     algorithm: `
-const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
+const numbers = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 ];
 
 const logEvenNums = numbers => {
   for (let i = 0; i <= numbers.length; i++) {
@@ -79,7 +79,7 @@ const logEvenNums = numbers => {
 
 logEvenNums(numbers);
 `,
-    testcase: `In this function you are console logging only the value of the even number in the given array.
+    testcase: `In this function you are console logging only the value of the even numbers in the given array.
     
     This is done by iterating over an if statement that checks IF this array item has a remainder of 0, then log the number. 
     
@@ -94,7 +94,7 @@ logEvenNums(numbers);
     subtitle:
       "Reverse the order of an array of numbers and return each array item",
     algorithm: `
-const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+const nums = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ];
 
 const countDown = nums => {
   let reversed = nums.reverse();
@@ -108,8 +108,8 @@ countDown(nums);
     testcase: `This is not a sorting algorithm, that will come later. 
     This function is just reversing the order of the given array of numbers using the reverse() method and printing each item of the array to the console.
     
-    The expected result should be 
-    " 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 ".
+    The expected result is
+    "15 14 13 12 11 10 9 8 7 6 5 4 3 2 1".
 `
   },
   {
@@ -136,7 +136,7 @@ console.log(reverseStr("Shelby Palumbo"))
     title: "Sum of an Array",
     subtitle: "The sum of all numbers in an array.",
     algorithm: `
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let numbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
 let result;
 
 const arrSum = numbers => {
@@ -172,19 +172,23 @@ The expected result of the sum of the numbers array is 55.
     subtitle:
       "Find the numbers in a given array that are divisible by 3 and 5.",
     algorithm: `
-    let array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25];
+    let array = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ];
     
     const findDivisibleNums = () => {
       for (var i = 0; i < array.length; i++) {
+
         if (array[i] % 3 === 0) {
           console.log(array[i], "is divisible by 3.");
         }
+
         if (array[i] % 5 === 0) {
           console.log(array[i], "is divisible by 5.");
         }
+
         if (array[i] % 15 === 0) {
           console.log(array[i], "is divisible by 3 & 5.");
         }
+        
         if (array[i] % 3 !== 0 && array[i] % 5 !== 0) {
           console.log(array[i], "is NOT divisible by 3 or 5.");
         }
@@ -194,14 +198,26 @@ The expected result of the sum of the numbers array is 55.
     findDivisibleNums(array);
   `,
     testcase: `
-    `
+By looping through the array of numbers, each number can be checked IF the number is divisible by 3, 5, or both, by dividing the array item by the check number. If the remainder of this equation is 0, the number is divisible by the check number, and will either console log "__ is divisible by 3", "__ is divisible by 5", "is diviible by 3 & 5", or if the remainder is not 0 "__ is NOT divisble by 3 or 5".
+
+
+The expected result given the array values...
+
+         1 is NOT divisible by 3 or 5.
+         2 is NOT divisible by 3 or 5.
+3 is divisible by 3.
+         4 is NOT divisible by 3 or 5.
+5 is divisible by 5.
+6 is divisible by 3.
+etc.
+`
   },
   {
     id: 7,
     title: "Max Array Value",
-    subtitle: "Using Math.max",
+    subtitle: "Find the max value using Math.max",
     algorithm: `
-let array = [3, 1, 17, 23, 5, 6, 111, 1000, 12, 0, -1];
+let array = [ 3, 1, 17, 23, 5, 6, 111, 1000, 12, 0, -1 ];
 
 let result;
 const maxNum = () => {
@@ -213,14 +229,15 @@ maxNum(array);
 console.log(result);
 `,
     testcase: `
+
   `
   },
   {
     id: 8,
     title: "Min Array Value",
-    subtitle: "",
+    subtitle: "Find the min value using Math.min",
     algorithm: `
-let array = [3, 1, 17, 23, 5, 6, 111, 1000, 12, 0, -1];
+let array = [ 3, 1, 17, 23, 5, 6, 111, 1000, 12, 0, -1 ];
 
 let result;
 const minNum = () => {
@@ -232,6 +249,7 @@ minNum(array);
 console.log(result);
 `,
     testcase: `
+    
   `
   }
 ];
