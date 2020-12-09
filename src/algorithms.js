@@ -217,19 +217,22 @@ etc.
     title: "Max Array Value",
     subtitle: "Find the max value using Math.max",
     algorithm: `
-let array = [ 3, 1, 17, 23, 5, 6, 111, 1000, 12, 0, -1 ];
+let numbers = [ 3, 1, 17, 23, 5, 6, 111, 1000, 12, 0, -1 ];
 
 let result;
 const maxNum = () => {
-result = Math.max(...array);
+result = Math.max(...numbers);
 return result;
 };
 
-maxNum(array);
+maxNum(numbers);
 console.log(result);
 `,
     testcase: `
+Math.max() returns the largest number that is passed into it. Using the spread operator, the entire array "numbers" is passed into the function and each element is checked for the highest value.
 
+The expected result given the array values...
+result= 1000
   `
   },
   {
@@ -237,19 +240,22 @@ console.log(result);
     title: "Min Array Value",
     subtitle: "Find the min value using Math.min",
     algorithm: `
-let array = [ 3, 1, 17, 23, 5, 6, 111, 1000, 12, 0, -1 ];
+let numbers = [ 3, 1, 17, 23, 5, 6, 111, 1000, 12, 0, -1 ];
 
 let result;
 const minNum = () => {
-result = Math.min(...array);
+result = Math.min(...numbers);
 return result;
 };
 
-minNum(array);
+minNum(numbers);
 console.log(result);
 `,
     testcase: `
-    
+Math.min() returns the smalled number that is passed into it. Using the spread operator, the entire array "numbers" is passed into the function and each element is checked for the lowest value.
+
+The expected result given the array values...
+result= -1;   
   `
   }
 ];
